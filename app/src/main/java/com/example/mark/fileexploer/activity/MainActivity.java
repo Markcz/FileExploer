@@ -2,7 +2,6 @@ package com.example.mark.fileexploer.activity;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
-import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -11,8 +10,6 @@ import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
-import android.view.ContextMenu;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.support.design.widget.NavigationView;
@@ -30,7 +27,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.mark.fileexploer.R;
-import com.example.mark.fileexploer.Utils.OpenFile;
+import com.example.mark.fileexploer.util.OpenFile;
 import com.example.mark.fileexploer.adapter.RecyclerViewAdapter;
 
 import java.io.File;
@@ -330,11 +327,12 @@ public class MainActivity extends AppCompatActivity
             i.setClass(MainActivity.this,AboutActivity.class);
             startActivity(i);
             this.overridePendingTransition(R.anim.in_alpha,R.anim.out_alpha);
+        } else if (id == R.id.nav_manage) {
+            Intent i = new Intent(MainActivity.this,ToolActivity.class);
+            startActivity(i);
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
 
         } else if (id == R.id.nav_share) {
 

@@ -25,7 +25,11 @@
         </activity>
         <activity
             android:name=".activity.AboutActivity"
-            android:label="@string/title_activity_about"></activity>
+            android:label="@string/title_activity_about" />
+        <activity
+            android:name=".activity.ToolActivity"
+            android:label="@string/title_activity_tool">
+        </activity>
     </application>
 
 </manifest>

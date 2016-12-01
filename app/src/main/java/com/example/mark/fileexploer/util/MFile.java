@@ -1,4 +1,4 @@
-package com.example.mark.fileexploer.Utils;
+package com.example.mark.fileexploer.util;
 
 import java.io.File;
 

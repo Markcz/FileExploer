@@ -1,8 +1,7 @@
-package com.example.mark.fileexploer.Utils;
+package com.example.mark.fileexploer.util;
 
 import android.content.Intent;
 import android.net.Uri;
-import android.util.Log;
 
 import java.io.File;
 
