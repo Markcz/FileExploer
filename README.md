@@ -1,4 +1,4 @@
-# FileExploer
+# FileExploer  初学者的第一个小项目
 # 1.主要使用了RecyclerView
 # 2.实现的文件夹与文件的创建
 # 3.通过文件类型的不同，创建了不同的Intent,实现Activity之间的通讯
